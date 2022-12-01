@@ -15,6 +15,5 @@ int solution(int numbers[], size_t numbers_len)
         if (arr[i] == 0)
             answer += i;
     }
-    // change1
     return answer;
 }
