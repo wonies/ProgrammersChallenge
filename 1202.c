@@ -1,3 +1,5 @@
+/* 프로그래머스 챌린지  |  숫자 문자열과 영단어 */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <memory.h>
