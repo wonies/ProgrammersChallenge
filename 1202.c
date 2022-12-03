@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <memory.h>
 
-char digit[10][6] = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight",
+char *digit[] = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight",
 "nine"};
 
 int solution(const char *s)
