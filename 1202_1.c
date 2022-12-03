@@ -17,7 +17,7 @@ int solution(const char *s)
             ans = ans * 10 + (s[i] - '0');
         for (int j=0; j < 10; j++)
         {
-            if (memcmp(&s[i], digit[j], strlen(digit[j]))==0)
+            if (!(memcmp(&s[i], digit[j], strlen(digit[j]))))
                 ans = (ans * 10) + j;
         }
     }
