@@ -31,16 +31,3 @@ int* solution(int numbers[], size_t numbers_len) {
 
     return answer;
 }
-
-int main()
-{
-    int number[10] = {2, 1, 3, 4, 1};
-    int num2[5] = {5, 0, 2, 7};
-    int *ans = solution(num2, 4);
-
-    for(int i=0; i<5; i++)
-    {
-      printf("[%d]", ans[i]);
-    }
-        
-}
