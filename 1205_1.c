@@ -27,5 +27,3 @@ int solution(int n)
     }
     return ans;
 }
-
-
