@@ -15,6 +15,15 @@ char* solution(const char* phone_number) {
 
     for(int i=0; i<len; i++)
         answer[i] += copy[i];
-
+    answer[len] = 0;
     return answer;
+}
+
+int main()
+{
+    char str[20] = "01033334444";
+    char *st = solution(str);
+    for(int i=0; i<12; i++)
+        printf("%c", st[i]);
+    printf("\n");
 }
