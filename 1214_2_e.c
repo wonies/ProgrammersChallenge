@@ -2,7 +2,6 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#define swap {int temp;}
 
 long long solution(int a, int b) {
     long long ans = 0;
