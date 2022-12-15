@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
 #define SWAP(a, b) {char temp=a; a=b; b=temp;}
 char* solution(const char* s) {
     int len = strlen(s);
