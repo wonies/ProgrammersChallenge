@@ -3,7 +3,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
 #define SWAP(a, b) {char temp=a; a=b; b=temp;}
 
 char* solution(const char* s) {
@@ -16,24 +15,8 @@ char* solution(const char* s) {
         for (int j=i; j<len; j++)
         {
             if (ans[i] < ans[j])
-            {
-                // temp = ans[i];
-                // ans[i] = ans[j];
-                // ans[j] = temp;
                 SWAP(ans[i], ans[j]);
-            }
         }
     }
     return ans;
-}
-
-int main()
-{
-    char *str = "Zbcdefg";
-    char *ans = solution(str);
-    for (int i = 0; i < 4; i++)
-    {
-        printf("%c", ans[i]);
-    }
-    printf("ans--%s--\n", solution(str));
 }
