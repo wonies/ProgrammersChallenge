@@ -1,3 +1,5 @@
+/* 프로그래머스 챌린지  | 주차 요금 계산  */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
