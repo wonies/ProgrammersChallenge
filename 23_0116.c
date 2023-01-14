@@ -42,7 +42,6 @@ char* solution(int numbers[], size_t numbers_len)
     }
     else
     {
-        int k = 0;
         for(int i=0; i<numbers_len; i++)
         {
             char temp[1001];
