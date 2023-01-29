@@ -91,6 +91,8 @@ Programmers Challenge(~1216)
     day 20(01.16)   가장 큰 수 (level2_20)
 
     day 21(01.17)   쿼드 압축 후 개수 세기 (level2_21)
+
+    day 22(01.26)   큰 수 만들기 (level2_22)
 }
 
 
