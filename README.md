@@ -93,6 +93,8 @@ Programmers Challenge(~1216)
     day 21(01.17)   쿼드 압축 후 개수 세기 (level2_21)
 
     day 22(01.26)   큰 수 만들기 (level2_22)
+    
+    day 23(01.31)   삼각 달팽이 (level2_23)
 }
 
 
