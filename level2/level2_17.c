@@ -1,3 +1,5 @@
+/* 프로그래머스 챌린지  | 모음 사전 */
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -23,7 +25,6 @@ int solution(const char *word)
         ans += 1 + aeiou[word[i]] * ca[i];
         i++;
     }
- 
     return ans;
     
 }
